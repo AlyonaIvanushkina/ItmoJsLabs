@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cart</title>
+        <link type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css" rel="Stylesheet" />
+        <link rel="stylesheet" type="text/css" href="cart.css">
+    </head>
+    <body>
+        <h4 id="author" hidden>Alyona Ivanushkina</h4>
+
+        <div id="nodes">
+        <div id="hdd" class="node">
+            <div class="img-wrap">
+                <img src="hdd.jpg" />
+            </div>
+            <div class="node-name">HDD</div>
+            <div class="node-cost">
+                <span>$</span>
+                <span class="node-price">0</span>
+            </div>
+            <div class="node-qty"></div>
+            <!-- <div class="btn node-del"></div>
+            <div class="btn node-add"></div> -->
+        </div>
+
+        <div id="sdd" class="node">
+            <div class="img-wrap">
+                <img src="ssd.jpg" />
+            </div>
+            <div class="node-name">SSD</div>
+            <div class="node-cost">
+                <span>$</span>
+                <span class="node-price">0</span>
+            </div>
+            <div class="node-qty"></div>
+            <!-- <div class="btn node-del"></div>
+            <div class="btn node-add"></div> -->
+        </div>
+
+        <div id="usbdrive" class="node">
+            <div class="img-wrap">
+                <img src="usbdrive.jpg" />
+            </div>
+            <div class="node-name">USB Drive</div>
+            <div class="node-cost">
+                <span>$</span>
+                <span class="node-price">0</span>    
+            </div>
+            <div class="node-qty"></div>
+            <!-- <div class="btn node-del"></div>
+            <div class="btn node-add"></div> -->
+        </div>
+        </div>
+
+        <div id="cart">
+            <div id="cart-bg">Drop your goods here</div>
+            <div id="node-list"></div>
+            <div id="cart-footer">
+                <div id="cart-clear" class="btn">Clear cart</div>
+                <div id="result">
+                    <div class="result-block"><span>Items: </span><span id="total-qty">0</span></div>
+                    <div class="result-block red-text"><span>Budget: $</span><span id="budget"></span></div>
+                    <div class="result-block"><span>Order price: $</span><span id="total-price">0</span></div>
+                </div>
+            </div>
+            
+        </div>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="jquery.matchHeight-min.js"></script>
+        <script type="text/javascript" src="cart.js"></script>
+    </body>
+</html>

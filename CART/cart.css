@@ -1,0 +1,163 @@
+#nodes {
+    width: fit-content;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.node {
+    width: 150px;
+    cursor: move;
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+    position: relative;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: rgba(0, 0, 0, 0.23) 0px 2px 5px 1px;
+    z-index: 20;
+}
+
+.node .img-wrap {
+    padding: 10px;
+}
+
+.node img {
+    height: auto;
+    max-width: 100%;
+}
+
+.node .name {
+    margin: 10px;
+    display: block;
+}
+
+.node .node-cost {
+    color: #005a88;
+    font-size: 1.2em;
+    margin: 10px;
+    display: block;
+}
+
+.node .btn {
+    display: inline-block;
+    text-align: center;
+    width: 26px;
+    height: 26px;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+.node .node-del {
+    background-image: url(minus.png);
+}
+
+.node .node-add {
+    background-image: url(plus.png);
+}
+
+.node .node-qty {
+    display: inline-block;
+    text-align: center;
+    width: 26px;
+    height: 26px;
+}
+
+#cart {
+    width: 600px;
+    min-height: 300px;
+    margin: 30px auto;
+    margin-bottom: 200px;
+    padding: 40px 20px 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;;
+    box-shadow: inset rgba(0, 0, 0, 0.23) 0 1px 7px 0px;
+    position: relative;
+}
+
+#cart-footer {
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 100%;
+    padding: 20px 0;
+    background: #005a880d;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+
+#cart-bg {
+    position: absolute;
+    top: 10px;
+    left: 25%;
+    width: 50%;
+    height: 300px;
+    text-align: center;
+    background: url(cart.png) no-repeat;
+    background-size: 70%;
+    background-position: center 70px;
+    font-size: 2em;
+    color: #080808;
+    filter: opacity(0.05);
+}
+
+#cart #node-list {
+    display: inline-block;
+    width: 100%;
+    min-height: 300px;
+}
+
+#cart .btn {
+    display: block;
+}
+
+#cart #cart-clear {
+    cursor: pointer;
+    float: left;
+    margin-left: 20px;
+    padding: 10px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.23) 0px 2px 3px 1px;
+}
+
+#cart #cart-clear:hover {
+    background: #005b8885;
+    color: #fff;
+}
+
+#cart #cart-clear:active {
+    background: #005a88;
+    color: #fff;
+    box-shadow: none;
+}
+
+#cart #result {
+    float: right;
+    margin-right: 20px;
+    padding: 10px;
+}
+
+#cart #result .result-block {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+#cart #result .red-text {
+    color: #ff0000;
+}
+
+.remove {
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.5em;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}
+.remove:hover {
+    color: #999;
+}
