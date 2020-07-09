@@ -38,4 +38,3 @@ export default {
     new NamedModulesPlugin()
   ]
 };
-// this file: webpack.config.babel.js fork from https://kodaktor.ru/j/min_react_webpack

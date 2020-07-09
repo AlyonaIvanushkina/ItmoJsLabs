@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "dev": "webpack-dev-server",
+    "serve": "webpack-dev-server",
     "build": "webpack --config webpack.config.babel.js"
   },
   "name": "you",

@@ -6,9 +6,7 @@ import VideoList from './components/video_list';
 import SearchBar from './components/search_bar';
 import VideoDetail from './components/video_detail';
 
-const API_KEY = process.env.YOUTUBE_API_KEY;
-// const API_KEY = '';
-
+const API_KEY = 'AIzaSyAVvpqnv1L-J5Dby6-fVx6drhc4DUODUxY';
 
 export default class extends Comp {
   constructor(props) {

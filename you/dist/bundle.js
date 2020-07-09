@@ -61,7 +61,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "b02f8de576ca80648c35"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "1be308c3f0af1c7d370c"; // eslint-disable-line no-unused-vars
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
@@ -51457,7 +51457,7 @@ if (true) module.hot.accept("./src/Page.jsx", function(__WEBPACK_OUTDATED_DEPEND
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* WEBPACK VAR INJECTION */(function(process) {/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("./node_modules/react/index.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("./node_modules/react/index.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_youtube_api_search__ = __webpack_require__("./node_modules/youtube-api-search/index.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_youtube_api_search___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_youtube_api_search__);
@@ -51482,7 +51482,7 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 
 
 
-var API_KEY = process.env.REACT_APP_GOOGLE_CLIENT_ID;
+var API_KEY = 'AIzaSyAVvpqnv1L-J5Dby6-fVx6drhc4DUODUxY';
 
 var _class = function (_Comp) {
   _inherits(_class, _Comp);
@@ -51544,7 +51544,6 @@ var _class = function (_Comp) {
 }(__WEBPACK_IMPORTED_MODULE_0_react__["Component"]);
 
 /* harmony default export */ __webpack_exports__["default"] = (_class);
-/* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__("./node_modules/node-libs-browser/node_modules/process/browser.js")))
 
 /***/ }),
 
